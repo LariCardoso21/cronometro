@@ -1,14 +1,47 @@
 body{
     font-family: sans-serif;
     text-align: center;
-    margin-top: 50px;
+    background-color: rgb(120, 70, 177);
+    margin-top: 8%;
 }
 #display{
     font-size: 48px;
     margin-bottom: 20px;
+    font-family: "Merriweather";
 }
 button{
-    margin: 5px;
-    padding: 10px 20px;
+    margin: 10px;
+    padding: 20px 30px;
     font-style: 16px;
+    border-radius: 30px;
+    background-color: rgb(83, 43, 121);
+    color: rgba(0, 0, 0, 0.959);
+    font-size: 20px;
+    font-family: "Merriweather";
+    border-color: rgb(83, 43, 121);
+}
+
+div{
+    color: rgb(44, 29, 59);
+}
+#iniciob:hover{
+    background-color: rgb(125, 68, 148);
+    color: aliceblue;
+}
+#pausarb:hover{
+    background-color: rgb(125, 68, 148);
+    color: aliceblue;
+}
+#resetarb:hover{
+    background-color: rgb(125, 68, 148);
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.liv{
+    height: 550px;
 }
